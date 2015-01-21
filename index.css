@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+/*html{
+	background-color: #F2F2F2;
+}*/
+body{
+	height: 100%;
+	width: 950px;
+	margin: auto;
+	/*box-shadow: 10px 10px 10px rgba(0,0,0,0.0.1);
+	border-style: none ridge none;/*上、左右、下*/
+	background-color: #FFF;
+}
+font{
+	color: #7F8D90;
+	font-size: 11pt; 	
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+h2{
+	color: #304149;
+	font-weight:400;
+	font-family:"Apple TP", "Helvetica Neue", "Helvetica", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Arial", "Verdana", "sans-serif"
+}
+h3{
+	color: #304149;
+	font-weight:400;
+	font-family:"Apple TP", "Helvetica Neue", "Helvetica", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Arial", "Verdana", "sans-serif"
+}
+#container{
+	width: 900px;
+	margin: auto;
+}
+#header{
+	width:900px;
+	height:82px;
+	background-color: #FFF;
+	/*border-style: none none ridge;/*上、左右、下*/*/
+}
+#Logo_Title{
+	width:210px;
+	float: left;
+	padding:15px 10px 10px 35px;
+	background-color: #FFF;
+}
+.Logo_Setumei{
+	width:300px;
+	height:16px;
+	margin: 32px 0px 32px 10px;
+	float: left;
+	color: #304149;
+	background-color: #FFF;
+}
+#Logo_Blog{
+	margin:5px 70px 0px 0px;
+	width:64px;
+	height:10px;
+	float: right;
+	padding:20px ;
+	background-color: #FFF;
+}
+#box{
+	width: 900px;
+	margin: 0px 0;
+	overflow: auto;	
+}	
+#wrapper{
+	width: 700px;
+	float: left;
+}
+#content{
+	width: 900px;
+	height: 520px;	
+	text-align:center;
+	background-color: #FFF;
+}
+.frame {
+	margin:20px 0px 0px;	
+	display: inline-block;
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+	height: 520px;	
+}
+#explanation{
+	width: 900px;
+	height: 30px;
+	margin:20px 0px 0px;
+	padding:20px 0px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#buttun{
+	width: 900px;
+	height: 66px;
+	padding:10px 0px 5px;	
+	text-align:center;
+	background-color: #FFF;
+}
+.download_link{
+	width: 900px;
+	height: 10px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+div.download_link a{
+	text-decoration:none;
+}
+div.download_link font{
+	font-size: 10pt; 	
+	color: #08c;
+}
+div.download_link font:hover { 
+	text-decoration:underline;
+}
+.kuwashiku_link{
+	width: 900px;
+	height: 80px;	
+	text-align:center;
+	font-size: 11pt; 	
+	background-color: #FFF;
+}
+div.kuwashiku_link a{
+	text-decoration:none;
+}
+div.kuwashiku_link font{
+	font-size: 11pt; 	
+	color: #08c;
+}
+div.kuwashiku_link font:hover { 
+	text-decoration:underline;
+}
+#version{
+	width: 900px;
+	height: 10px;	
+	padding:10px 0px 30px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+}
+#kuwashikuhakochira{
+	width: 900px;
+	height: 28px;	
+	padding:20px 0px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#youtube{
+	width: 900px;
+	height: 360px;	
+	padding:0px 0px 40px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#koukoku{
+	width: 900px;
+	height: 260px;	
+	padding:0px 0px 40px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#koukoku2{
+	width: 900px;
+	height: 100px;	
+	padding:0px 0px 40px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#tubekokosugo{
+	width: 900px;
+	height: 20px;	
+	padding:10px 0px 20px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#Setumei{
+	width: 900px;
+	height: 535px;	
+	background-color: #FFF;
+}
+.frame_Setumei {
+	margin:20px 0px 0px;	
+	display: inline-block;
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+	height: 400px;	
+}
+#explanation{
+	width: 900px;
+	height: 30px;
+	margin:20px 0px 0px;
+	padding:20px 0px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#kokosugo{
+	width: 900px;
+	height: 20px;	
+	padding:30px 0px 0px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#Setumei_left{
+	width: 450px;
+	height: 400px;	
+	float: left;
+	padding: 50px 0px; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Setumei_left2{
+	width: 450px;
+	height: 380px;	
+	float: left;
+	padding: 90px 0px 30px; 
+	text-align:center;
+	background-color: #FFF;
+}
+
+#Setumei_right{
+	width: 450px;
+	height: 400px;	
+	float: right;
+	padding: 50px 0px; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Setumei_right1{
+	width: 450px;
+	height: 340px;	
+	float: right;
+	padding: 80px 0px; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Setumei_right3{
+	width: 450px;
+	height: 300px;	
+	float: right;
+	padding: 90px 0px 110px; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi1{
+	width: 450px;
+	height: 20px;	 
+	padding:0px 0px 10px;
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi2{
+	width: 450px;
+	height: 20px;	 
+	padding:0px 0px 10px;
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi3{
+	width: 450px;
+	height: 20px;	 
+	padding:0px 0px 10px;
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi1_setumei{
+	width: 450px;
+	height: 99px;	 
+	font-size: 10.5pt; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi2_setumei{
+	width: 450px;
+	height: 99px;	 
+	font-size: 10.5pt; 
+	text-align:center;
+	background-color: #FFF;
+}
+#Midashi3_setumei{
+	width: 450px;
+	height: 99px;	 
+	font-size: 10.5pt; 
+	text-align:center;
+	background-color: #FFF;
+}
+
+#System{
+	width: 900px;
+	height: 400px;	
+	background-color: #FFF; 
+}
+#System_Midashi{
+	width: 500px;
+	height: 25px;	
+	padding:30px 200px 0px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#System_Setumei{
+	margin: 30px 200px 0px;
+	width: 500px;
+	height: 100px;	
+	text-align:center;
+	background-color: #FFF;
+	font-size: 9pt; 
+}
+
+#NetGazou{
+	margin: 20px auto 50px;
+	width: 160px;
+	height: 52px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#Keisai{
+	width: 900px;
+	height: 450px;	
+	background-color: #FFF; 
+}
+#Keisai_Midashi{
+	width: 500px;
+	height: 25px;	
+	padding:30px 200px 0px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#Keisai_Setumei{
+	margin: 25px 200px 0px;
+	width: 500px;
+	height: 100px;	
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+}
+
+#KeisaiGazou{
+	width: 900px;
+	padding:20px 0px 10px;
+	height: 200px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#footer{
+	height: 160px;
+	background-color: #FFF;
+} 
+#footer_contact{
+	width: 900px;
+	height: 15px;	
+	padding:25px 0px 20px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+}
+#footer_copyrights{
+	width: 900px;
+	height: 15px;	
+	padding:0px 0px 20px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+}
+
+.footer_riyou{
+	width: 900px;
+	height: 15px;	
+	padding:0px 0px 20px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+	text-decoration:none; 
+}
+div.footer_riyou a{
+	text-decoration:none;
+}
+div.footer_riyou font{
+	font-size: 10pt; 	
+}
+div.footer_riyou font:hover { 
+	text-decoration:underline;
+} 

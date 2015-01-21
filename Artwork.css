@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+/*html{
+	background-color: #F2F2F2;
+}*/
+body{
+	height: 100%;
+	width: 950px;
+	margin: auto;
+	/*box-shadow: 10px 10px 10px rgba(0,0,0,0.0.1);
+	border-style: none ridge none;/*上、左右、下*/
+	background-color: #FFF;
+}
+font{
+	color: #7F8D90;
+	font-size: 11pt; 	
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+h2{
+	color: #30414;
+	/*color: #666666;*/
+	font-weight:400;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+h3{
+	color: #3d464d;
+	/*color: #666666;*/
+	font-weight:400;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+#container{
+	width: 900px;
+	margin: auto;
+}
+#header{
+	width:900px;
+	height:82px;
+	background-color: #FFF;
+	/*border-style: none none ridge;/*上、左右、下*/*/
+}
+#Logo_Title{
+	width:210px;
+	float: left;
+	padding:15px 10px 10px 35px;
+	background-color: #FFF;
+}
+.Logo_Setumei{
+	width:300px;
+	height:16px;
+	margin: 32px 0px 32px 10px;
+	float: left;
+	color: #304149;
+	background-color: #FFF;
+}
+#Logo_Blog{
+	margin:5px 70px 0px 0px;
+	width:64px;
+	height:10px;
+	float: right;
+	padding:20px ;
+	background-color: #FFF;
+}
+#Makefolder{
+	width: 900px;
+	height: 25px;	
+	font-size: 15pt;
+	color: #666666;
+	margin:50px 0px 25px;
+	background-color: #FFF;
+}
+#box{
+	width: 900px;
+	height: 5000px;	
+	padding:30px 0px;
+	margin: 0px auto;
+	overflow: auto;	
+	color: #666666;
+	font-size: 11pt; 	
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}	
+#content{
+	width: 900px;
+	height: 450px;	
+	text-align:center;
+	background-color: #FFF;
+}
+#DragFileHani{
+	width: 500px;
+	height: 400px;	
+	margin: 20px 0px 0px 15px;
+	background-color: #FFF;
+}
+#Midashi{
+	width: 900px;
+	height: 17px;	
+	padding:33px 0px 0px;
+	background-color: #FFF;
+}
+#Setumei{
+	width: 863px;
+	height: 17px;	
+	padding:20px 0px 0px 17px;
+	background-color: #FFF;
+}
+#Setumei_Syosai{
+	width: 863px;
+	height: 17px;	
+	padding:10px 0px 0px 26px;
+	background-color: #FFF;
+}
+#Setumei_Syosai1{
+	width: 863px;
+	height: 37px;	
+	padding:10px 0px 0px 26px;
+	background-color: #FFF;
+}
+#Setumei_Syosai2{
+	width: 863px;
+	height: 60x;	
+	padding:10px 0px 0px 26px;
+	background-color: #FFF;
+}
+#chui{
+	width: 863px;
+	height: 150px;	
+	padding:20px 0px 60px 17px;
+	background-color: #FFF;
+}
+
+#Rei{
+	width: 863px;
+	height: 17px;	
+	padding:10px 0px 0px 26px;
+	background-color: #FFF;
+}
+#Rei1{
+	width: 863px;
+	height: 20px;	
+	padding:10px 0px 0px 26px;
+	background-color: #FFF;
+}
+
+#kyokumeiichiran{
+	width: 450px;
+	padding:10px 0px 10px 40px;
+	height: 450px;	
+	background-color: #FFF;
+}
+#BackupHoushiki{
+	width: 500px;
+	padding:10px 0px 10px 40px;
+	height: 190px;	
+	background-color: #FFF;
+}
+#footer{
+	height: 160px;
+	background-color: #FFF;
+	color: #7F8D90;
+	font-size: 10pt; 	
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+} 
+#footer_contact{
+	width: 900px;
+	height: 15px;	
+	padding:25px 0px 20px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+}
+#footer_copyrights{
+	width: 900px;
+	height: 15px;	
+	padding:0px 0px 25px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+}
+.footer_riyou{
+	width: 900px;
+	height: 15px;	
+	padding:0px 0px 20px;
+	text-align:center;
+	background-color: #FFF;
+	font-size: 10pt; 
+	text-decoration:none; 
+}
+div.footer_riyou a{
+	text-decoration:none;
+}
+div.footer_riyou font{
+	font-size: 10pt; 	
+}
+div.footer_riyou font:hover { 
+	text-decoration:underline;
+} 
+.kuwashiku_link{
+	width: 900px;
+	height: 10px;	
+	text-align:center;
+	font-size: 11pt; 	
+	background-color: #FFF;
+}
+div.kuwashiku_link a{
+	text-decoration:none;
+}
+div.kuwashiku_link font{
+	font-size: 11pt; 	
+	color: #08c;
+}
+div.kuwashiku_link font:hover { 
+	text-decoration:underline;
+}
+#koukoku{
+	width: 900px;
+	height: 260px;	
+	padding:0px 0px 40px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#kuwashikuhakochira{
+	width: 900px;
+	height: 28px;	
+	padding:20px 0px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}

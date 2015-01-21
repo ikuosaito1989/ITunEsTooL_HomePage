@@ -1,0 +1,6 @@
+AuthUserFile /Library/WebServer/Documents/.htpasswd
+AuthName "Input ID and Password"
+AuthType Basic
+require valid-user
+
+

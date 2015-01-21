@@ -1,0 +1,6 @@
+System Exception 1002 : 削除の対象としてマークされているレジストリ キーに対して無効な操作を実行しようとしました。 (HRESULT からの例外:0x800703FA)
+
+iTunes Versin : 12.0.1.26
+OS Versin : 6.1.7601.65536
+UAC Enabled : False
+App Versin : 2.2.0.4
