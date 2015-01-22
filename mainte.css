@@ -76,7 +76,7 @@ h3{
 }
 #box{
 	width: 900px;
-	height: 3000px;	
+	height: 2730px;	
 	padding:30px 0px;
 	margin: 0px auto;
 	overflow: auto;	
@@ -231,6 +231,14 @@ div.kuwashiku_link font:hover {
 #koukoku{
 	width: 900px;
 	height: 220px;	
+	padding:0px 0px 40px;	
+	text-align:center;
+	font-size: 9pt; 	
+	background-color: #FFF;
+}
+#koukoku2{
+	width: 900px;
+	height: 100px;	
 	padding:0px 0px 40px;	
 	text-align:center;
 	font-size: 9pt; 	
