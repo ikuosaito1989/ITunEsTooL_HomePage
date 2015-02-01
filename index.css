@@ -175,7 +175,7 @@ div.kuwashiku_link font:hover {
 #tubekokosugo{
 	width: 900px;
 	height: 20px;	
-	padding:10px 0px 20px;	
+	padding:10px 0px 10px;	
 	text-align:center;
 	background-color: #FFF;
 }
@@ -291,7 +291,7 @@ div.kuwashiku_link font:hover {
 
 #System{
 	width: 900px;
-	height: 400px;	
+	height: 350px;	
 	background-color: #FFF; 
 }
 #System_Midashi{
