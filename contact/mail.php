@@ -220,9 +220,13 @@ else if($confirmDsp == 1){
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="img/Music.ico" type="image/vnd.microsoft.icon">
 <title>確認画面</title>
 <style type="text/css">
 /* 自由に編集下さい */
+*{
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
 #formWrap {
 	width:700px;
 	margin:0 auto;
@@ -249,6 +253,82 @@ p.error_messe{
 	margin:5px 0;
 	color:red;
 }
+#header{
+  width:700px;
+  height:70px;
+  background-color: #FFF;
+  text-align:center;
+  /*border-style: none none ridge;/*上、左右、下*/*/
+}
+#Logo_Title{
+  width:210px;
+  float: left;
+  padding:15px 10px 10px 35px;
+  background-color: #FFF;
+}
+#footer{
+  color: #7F8D90;
+  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  height: 120px;
+  background-color: #FFF;
+} 
+#footer_contact{
+  width: 700px;
+  height: 15px; 
+  padding:25px 0px 20px;
+  text-align:center;
+  background-color: #FFF;
+  font-size: 10pt; 
+}
+#footer_copyrights{
+  width: 700px;
+  height: 15px; 
+  padding:25px 0px 20px;
+  text-align:center;
+  background-color: #FFF;
+  font-size: 10pt; 
+}
+
+.footer_riyou{
+  width: 700px;
+  height: 15px; 
+  padding:0px 0px 20px;
+  text-align:center;
+  background-color: #FFF;
+  font-size: 10pt; 
+  text-decoration:none; 
+}
+div.footer_riyou a{
+  text-decoration:none;
+}
+div.footer_riyou font{
+  font-size: 10pt;  
+}
+div.footer_riyou font:hover { 
+  text-decoration:underline;
+} 
+#koukoku{
+  text-align:center;
+  width: 700px;
+  height: 350px; 
+  padding:40px 0px 40px;
+}
+font{
+  color: #7F8D90;
+  font-size: 11pt;  
+  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+#submit_button {
+	text-align:center;
+	/* 背景色を黒に指定 */
+    background-color: #9fccf4;
+    /* 文字色を白に指定 */
+    color: #fff;
+    /* submitボタンのを枠を非表示にする */
+    border-style: none;
+    padding: 15px 40px;
+    font-size: 1.2em;
+}
 </style>
 </head>
 <body>
@@ -258,22 +338,62 @@ p.error_messe{
 <!-- ▼************ 送信内容表示部　※編集は自己責任で ************ ▼-->
 <div id="formWrap">
 <?php if($empty_flag == 1){ ?>
+<div id="header">
+	<div id="Logo_Title">
+	    <a href="http://itunestool.jp/">
+	      <img src="img/Logo.png" alt="ITunEsTooL_ロゴ" width="509" height="50">
+	    </a>
+	</div>        
+</div>
+<HR size="1" >
 <div align="center">
 <h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4>
-<?php echo $errm; ?><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()">
+<?php echo $errm; ?><br /><br /><input id="submit_button"　type="button" value=" 前画面に戻る " onClick="history.back()">
 </div>
 <?php }else{ ?>
+<div id="header">
+	<div id="Logo_Title">
+	    <a href="http://itunestool.jp/">
+	      <img src="img/Logo.png" alt="ITunEsTooL_ロゴ" width="509" height="50">
+	    </a>
+	</div>        
+</div>
+<HR size="1" >
 <h3>確認画面</h3>
 <p align="center">以下の内容で間違いがなければ、「送信する」ボタンを押してください。</p>
+
 <form action="<?php echo h($_SERVER['SCRIPT_NAME']); ?>" method="POST">
 <table class="formTable">
 <?php echo confirmOutput($_POST);//入力内容を表示?>
 </table>
 <p align="center"><input type="hidden" name="mail_set" value="confirm_submit">
 <input type="hidden" name="httpReferer" value="<?php echo h($_SERVER['HTTP_REFERER']);?>">
-<input type="submit" value="　送信する　">
-<input type="button" value="前画面に戻る" onClick="history.back()"></p>
+<input id="submit_button" type="submit" value="　送信する　">
+<input id="submit_button" type="button" value="前画面に戻る" onClick="history.back()"></p>
 </form>
+<div id="koukoku">
+  	<!-- admax -->
+	<script src="http://adm.shinobi.jp/s/d1025cc18cede5e2b015f07f62b629e6"></script>
+	<!-- admax -->
+</div>
+<div id="formWrap">
+<div id="footer">
+	<HR size="1" >
+	<div id="footer_copyrights">
+	  <a>
+	    Copyright (C) 2014 copyrights. isaito All Rights Reserved.
+	  </a>
+	</div>
+	<div class="footer_riyou">
+	  <a href="http://itunestool.jp/riyoukiyaku.html">
+	     <font color="#ff44ff">利用規約</font>
+	  </a>
+	  <a> / </a>
+	  <a href="http://itunestool.jp/privacypolicy .html">
+	     <font color="#ff44ff">プライバシーポリシー</font>
+	  </a>
+	</div>
+</div>
 <?php } ?>
 </div><!-- /formWrap -->
 <!-- ▲ *********** 送信内容確認部　※編集は自己責任で ************ ▲-->
@@ -305,10 +425,18 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 </body>
 </html>
 <?php }else{ ?>
+<div id="header">
+	<div id="Logo_Title">
+	    <a href="http://itunestool.jp/">
+	      <img src="img/Logo.png" alt="ITunEsTooL_ロゴ" width="509" height="50">
+	    </a>
+	</div>        
+</div>
+<br><br>
 送信ありがとうございました。<br />
 送信は正常に完了しました。<br /><br />
 <a href="<?php echo $site_top ;?>">トップページへ戻る&raquo;</a>
-</div>
+<br><br>
 <?php copyright(); ?>
 <!--  CV率を計測する場合ここにAnalyticsコードを貼り付け -->
 </body>
@@ -564,7 +692,7 @@ function refererCheck($Referer_check,$Referer_check_domain){
 	}
 }
 function copyright(){
-	echo '<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="http://www.php-factory.net/" target="_blank">- PHP工房 -</a>';
+	echo '<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="http://www.php-factory.net/" target="_blank">- ITunEsTooL -</a>';
 }
 //----------------------------------------------------------------------
 //  関数定義(END)

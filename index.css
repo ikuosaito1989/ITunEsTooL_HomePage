@@ -349,14 +349,24 @@ div.kuwashiku_link font:hover {
 	height: 160px;
 	background-color: #FFF;
 } 
-#footer_contact{
+.footer_contact{
 	width: 900px;
 	height: 15px;	
 	padding:25px 0px 20px;
 	text-align:center;
 	background-color: #FFF;
 	font-size: 10pt; 
+	text-decoration:none; 
 }
+div.footer_contact a{
+	text-decoration:none;
+}
+div.footer_contact font{
+	font-size: 10pt; 	
+}
+div.footer_contact font:hover { 
+	text-decoration:underline;
+} 
 #footer_copyrights{
 	width: 900px;
 	height: 15px;	

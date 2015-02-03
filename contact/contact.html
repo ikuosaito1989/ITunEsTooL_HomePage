@@ -3,11 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ITunEsTooL - お問い合わせ</title>
-<link rel="shortcut icon" href="img/Music.ico" type="image/vnd.microsoft.icon">
 <meta name="Description" content="" />
 <meta name="Keywords" content="" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="shortcut icon" href="img/Music.ico" type="image/vnd.microsoft.icon">
 <style type="text/css">
+*{
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
 #formWrap {
 	width:700px;
 	margin:0 auto;
@@ -84,14 +87,26 @@ div.footer_riyou font{
 div.footer_riyou font:hover { 
   text-decoration:underline;
 } 
-#blank{
+#koukoku{
+  text-align:center;
   width: 700px;
-  height: 200px; 
+  height: 350px; 
+  padding:40px 0px 40px;
 }
 font{
   color: #7F8D90;
   font-size: 11pt;  
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+#submit_button {
+	/* 背景色を黒に指定 */
+    background-color: #9fccf4;
+    /* 文字色を白に指定 */
+    color: #fff;
+    /* submitボタンのを枠を非表示にする */
+    border-style: none;
+    padding: 15px 40px;
+    font-size: 1.2em;
 }
 </style>
 </head>
@@ -121,10 +136,10 @@ font{
         <th>お名前</th>
         <td><input size="20" type="text" name="お名前" /> ※必須</td>
       </tr>
-      <tr>
+      <!--<tr>
         <th>電話番号（半角）</th>
         <td><input size="30" type="text" name="電話番号" /></td>
-      </tr>
+      </tr>-->
       <tr>
         <th>Mail（半角）</th>
         <td><input size="30" type="text" name="Email" /> ※必須</td>
@@ -136,8 +151,14 @@ font{
       </tr>
       <tr>
         <th>サイトを知ったきっかけ</th>
-        <td><input name="サイトを知ったきっかけ[]" type="checkbox" value="友人・知人" /> 友人・知人　
-          <input name="サイトを知ったきっかけ[]" type="checkbox" value="検索エンジン" /> 検索エンジン</td>
+        <td><input name="サイトを知ったきっかけ[]" type="checkbox" value="Vector" /> 
+          Vector
+          <input name="サイトを知ったきっかけ[]" type="checkbox" value="雑誌" /> 
+          雑誌
+          <input name="サイトを知ったきっかけ[]" type="checkbox" value="ネットでたまたま" /> 
+          ネットでたまたま
+        </td>
+          
       </tr>
       <tr>
         <th>お問い合わせ内容<br /></th>
@@ -145,13 +166,15 @@ font{
       </tr>
     </table>
     <p align="center">
-      <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+      <input id="submit_button" type="submit" value="　 確認 　" />　<input  id="submit_button" type="reset" value="リセット" />
     </p>
   </form>
   <br><br>
   <p>※IPアドレスを記録しております。いたずらや嫌がらせ等はご遠慮ください</p>
-  <div id="blank">
-
+  <div id="koukoku">
+  	<!-- admax -->
+	<script src="http://adm.shinobi.jp/s/f75c5f11d4a91d45cd708d29e69cc618"></script>
+	<!-- admax -->
   </div>
 
 </div>
