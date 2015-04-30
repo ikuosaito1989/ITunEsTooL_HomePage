@@ -1,0 +1,12 @@
+Web Exception 2102 : リモート サーバーに接続できません。
+Web Exception 2102 : リモート サーバーがエラーを返しました: (503) サーバーを使用できません
+Web Exception 2102 : リモート サーバーがエラーを返しました: (503) サーバーを使用できません
+Web Exception 2102 : リモート サーバーがエラーを返しました: (404) 見つかりません
+Web Exception 2102 : リモート サーバーがエラーを返しました: (403) 使用不可能
+System Exception 2102 : 使用されたパラメーターが有効ではありません。
+Web Exception 2102 : 基礎になる接続が閉じられました: SSL/TLS のセキュリティで保護されているチャネルに対する信頼関係を確立できませんでした
+
+iTunes Versin : 12.0.1.26
+OS Versin : 6.2.9200.0
+UAC Enabled : True
+App Versin : 2.2.0.8

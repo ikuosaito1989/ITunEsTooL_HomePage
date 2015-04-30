@@ -7,6 +7,7 @@
 	background-color: #F2F2F2;
 }*/
 body{
+
 	height: 100%;
 	width: 950px;
 	margin: auto;
@@ -83,9 +84,11 @@ h3{
 	height: 520px;	
 }
 #explanation{
+	color: #777;
+	font-size: 12pt;
 	width: 900px;
-	height: 30px;
-	margin:20px 0px 0px;
+	height: 65px;
+	margin:25px 0px 10px 0px;
 	padding:20px 0px;	
 	text-align:center;
 	background-color: #FFF;
@@ -172,9 +175,9 @@ div.kuwashiku_link font:hover {
 	font-size: 9pt; 	
 	background-color: #FFF;
 }
-#tubekokosugo{
+#Social{
 	width: 900px;
-	height: 20px;	
+	height: 50px;	
 	padding:10px 0px 10px;	
 	text-align:center;
 	background-color: #FFF;
@@ -189,14 +192,6 @@ div.kuwashiku_link font:hover {
 	display: inline-block;
 	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
 	height: 400px;	
-}
-#explanation{
-	width: 900px;
-	height: 30px;
-	margin:20px 0px 0px;
-	padding:20px 0px;	
-	text-align:center;
-	background-color: #FFF;
 }
 #kokosugo{
 	width: 900px;

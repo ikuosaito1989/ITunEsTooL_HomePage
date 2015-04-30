@@ -1,0 +1,6 @@
+System Exception 1002 : 型 'System.__ComObject' の COM オブジェクトをインターフェイス型 'iTunesLib.IITFileOrCDTrack' にキャストできません。IID '{00D7FE99-7868-4CC7-AD9E-ACFD70D09566}' が指定されたインターフェイスの COM コンポーネント上での QueryInterface 呼び出しのときに次のエラーが発生したため、この操作に失敗しました: インターフェイスがサポートされていません (HRESULT からの例外: 0x80004002 (E_NOINTERFACE))。
+
+iTunes Versin : 12.0.1.26
+OS Versin : 6.1.7601.65536
+UAC Enabled : True
+App Versin : 2.2.0.5
