@@ -1,0 +1,91 @@
+*{
+	font-family:"Apple TP", "Helvetica Neue", "Helvetica", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Arial", "Verdana", "sans-serif"
+
+}
+img
+{ 
+    max-width: 90%; 
+    height:auto;
+}
+HR
+{
+    max-width: 90%; 
+    height:auto;
+}
+.Logo
+{
+	text-align:center;
+	padding:5px 0px 0px;
+}
+.Main
+{
+	text-align:center;
+}
+.Main p{
+	color: #666;
+	font-weight:500;
+	font-size: 13px;
+}
+.Main a{
+	font-weight:500;
+}
+.Movie{
+	text-align:center;
+}
+.Movie p{
+	padding:30px 0px 0px;
+	font-weight:500;
+}
+.Nice{
+	text-align:center;
+}
+.Nice h1{
+	font-weight:500;
+}
+.Nice h3{
+	font-weight:500;
+}
+.Nice p{
+	font-size: 13px;
+	color: #666;
+	font-weight:500;
+}
+.System{
+	text-align:center;
+}
+.System h1{
+	font-weight:500;
+}
+.System p{
+	font-size: 13px;
+	color: #666;
+	font-weight:500;
+}
+.Publish{
+	text-align:center;
+}
+.Publish h1{
+	font-weight:500;
+}
+.Publish p{
+	font-size: 13px;
+	color: #666;
+	font-weight:500;
+}
+.footer{
+	
+}
+.Foot{
+	text-align:center;
+	padding:0px 0px 20px;
+}
+.Foot p{
+	color: #666;
+	font-weight:500;
+	font-size: 12px;
+}
+.Foot a{
+	color: #666;
+	font-weight:500;
+	font-size: 12px;
+}

@@ -77,7 +77,7 @@ h3{
 }
 #box{
 	width: 900px;
-	height: 900px;	
+	height: 600px;	
 	margin: 0px auto;
 	text-align:center;
 	overflow: auto;	
@@ -86,7 +86,7 @@ h3{
 #Thank{
 	width: 900px;
 	height: 110px;	
-	padding:340px 0px 0px 0px;
+	padding:200px 0px 0px 0px;
 	margin: 0px auto;
 	text-align:center;
 }	
@@ -100,7 +100,7 @@ h3{
 #Shaji{
 	width: 900px;
 	height: 16px;	
-	padding:30px 0px 340px 0px;
+	padding:30px 0px 150px 0px;
 	margin: 0px auto;
 	text-align:center;
 }	
@@ -234,10 +234,10 @@ div.footer_contact font:hover {
 	font-size: 10pt; 
 	text-decoration:none; 
 }
-#koukoku{
+.koukoku{
 	width: 900px;
-	height: 260px;	
-	padding:0px 0px 40px;	
+	height: 250px;	
+	padding:40px 0px 40px;	
 	text-align:center;
 	font-size: 9pt; 	
 	background-color: #FFF;

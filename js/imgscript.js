@@ -3,14 +3,14 @@ $(function() {
 		.hover(
 		function(){
 			$(this).stop().animate({
-				'width':'820px',//拡大で表示させておくサイズ
+				'width':'870px',//拡大で表示させておくサイズ
 				'height':'540px',
 				'marginTop':'0px'//トップのマージンをマイナスで指定す事で底辺を起点としています
 			},'fast');
 		},
 		function () {
 			$(this).stop().animate({
-				'width':'800px',//デフォルトで表示させておくサイズ
+				'width':'850px',//デフォルトで表示させておくサイズ
 				'height':'520px',
 				'marginTop':'0px'
 			},'fast');
@@ -68,3 +68,8 @@ $(function() {
 		}
 	);
 });	
+$(function() {
+	$('#Logo_Title img').mouseover(function(){
+		$(this).css('opacity', '.4').animate({'opacity': '1'}, 'slow');
+	});
+});

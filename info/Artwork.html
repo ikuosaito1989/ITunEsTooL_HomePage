@@ -4,11 +4,13 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="content-language" content="ja">
 		<title>ITunEsTooL - アートワーク</title>
-		<link href="./Artwork.css" rel="stylesheet" type="text/css">
+		<link href="Artwork.css" rel="stylesheet" type="text/css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" media="screen" href="css/2_5dbutton.css" />
-		<link rel="shortcut icon" href="img/Music.ico" type="image/vnd.microsoft.icon">
-		<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="../css/2_5dbutton.css" />
+		<link rel="shortcut icon" href="../img/Music.ico" type="image/vnd.microsoft.icon">
+		<script type="text/javascript" src="../js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/imgscript.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -16,12 +18,9 @@
 			<div id="header">
 				<div id="Logo_Title">
 					<a href="http://itunestool.jp/">
-					<img src="img/Logo.png" alt="ITunEsTooL_ロゴ" width="509" height="50">
+					<img src="../img/Logo.bmp" alt="ロゴ" width="650" height="50">
 					</a>
-				</div>				
-				<!--<div class="Logo_Setumei">
-					<a>  あなたのiTunesライフをもっと快適に！</a>
-				</div>-->
+				</div>								
 			</div>
 			
 			<HR size="1" >
@@ -34,135 +33,129 @@
 			
 			<div id="box">
 				<div id="content">
-						<img src="img/Artwork_setumei.png" alt="ITunEsTooL_バックアップ画面" width="450" height="450">
+						<img src="../img/Artwork_Manual.png" alt="アートワーク" width="450" height="450">
 					</div>
 					
 					<div id="Midashi">
 						<h3>１．iTunesから曲をドラック＆ドロップ</h3>
 					</div>
 					<div id="DragFileHani">
-						<img src="img/DragFileHani.png" alt="ITunEsTooL_バックアップ画面" width="400" height="400">
+						<img src="../img/Artwork_Scope(ITunEsTooL).png" alt="drag" width="400" height="400">
 					</div>
 					<div id="Setumei">
 						<a>iTunesからITunEsTooLへ、アートワーク設定を行う曲をドラック＆ドロップすることが出来ます。</a>
-					</div>
+					</div>										
+
 					<div id="Midashi">
-						<h3>２．クリップボードコピーボタン（Name,Artist,Album）</h3>
-					</div>
-					<div id="Setumei">
-						<a>曲名、アルバム名、アーティスト名をクリップボードにコピーすることが出来ます。</a>
-					</div>
-					<div id="Midashi">
-						<h3>３．ボリューム、再生、曲戻し、曲送りボタン</h3>
-					</div>
-					<div id="Setumei">
-						<a>ITunEsTooLにドラッグした曲のボリューム、再生、曲戻し、曲送りが行えます。</a>
-					</div>
-					<div id="Midashi">
-						<h3>４．再生中の曲をITunEsTooLに設定する</h3>
+						<h3>２．再生中の曲をITunEsTooLに設定する</h3>
 					</div>
 					<div id="Setumei">
 						<a>iTunes上で再生中の曲をITunEsTooLに設定します。</a>
 					</div>
+
 					<div id="Midashi">
-						<h3>５．項目が設定されていない曲をITunEsTooLに設定する。</h3>
+						<h3>３．項目が設定されていない曲をITunEsTooLに設定する。</h3>
 					</div>
 					<div id="Setumei">
-						<a>５−１．アートワーク</a>
+						<a>３−１．アートワーク</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>アートワークが設定されていない曲をITunEsTooLに設定します。</a>
 					</div>
 					<div id="Setumei">
-						<a>５−２．アルバム名</a>
+						<a>３−２．アルバム名</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>アルバム名が設定されていない曲をITunEsTooLに設定します。</a>
 					</div>
 					<div id="Setumei">
-						<a>５−３．アーティスト名</a>
+						<a>３−３．アーティスト名</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>アーティスト名が設定されていない曲をITunEsTooLに設定します。</a>
 					</div>
 					
 					<div id="Midashi">
-						<h3>６．クリップボードの画像を貼り付け　※Ctrl + Cでも可</h3>
+						<h3>４．クリップボードの画像を貼り付け　※Ctrl + Cでも可</h3>
 					</div>
 					<div id="Setumei">
 						<a>クリップボードにコピーした画像を曲に設定することが出来ます。</a>
 					</div>
+
 					<div id="Midashi">
-						<h3>７．画像ファイルを設定する　※UAC有効にしているユーザのみ</h3>
+						<h3>５．画像ファイルを設定する　※UAC有効にしているユーザのみ</h3>
 					</div>
 					<div id="Setumei">
 						<a>画像ファイルを曲に設定することが出来ます。（jpg、png、bngのみ）</a>
 					</div>
+
 					<div id="Midashi">
-						<h3>８．画像ファイルを枠内にドラッグして設定する。　※UAC無効にしているユーザのみ</h3>
+						<h3>６．画像ファイルを枠内にドラッグして設定する。　※UAC無効にしているユーザのみ</h3>
 					</div>
 					<div id="DragFileHani">
-						<img src="img/gazouFileHani.png" alt="ITunEsTooL_バックアップ画面" width="400" height="400">
+						<img src="../img/Artwork_Scope(itunes).bmp" alt="ITunEsTooL_バックアップ画面" width="400" height="400">
 					</div>
 					<div id="Setumei">
 						<a>画像ファイルを上記の枠内にドラッグして曲を設定することが出来ます。（jpg、png、bngのみ）</a>
 					</div>
+
 					<div id="Midashi">
-						<h3>９．編集モード</h3>
+						<h3>７．編集モード</h3>
 					</div>
 					<div id="Setumei">
-						<a>９−１．曲、アルバム名、アーティスト名を編集モードにする</a>
+						<a>７−１．曲、アルバム名、アーティスト名を編集モードにする</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>ITunEsTooL上で曲名、アルバム名、アーティスト名を編集することが出来ます。</a>
 					</div>
 					<div id="Setumei">
-						<a>９−２．編集モードを終了する。</a>
+						<a>７−２．編集モードを終了する。</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>編集モードを終了します。編集した内容はiTunesに反映されます。</a>
 					</div>
 					<div id="Setumei">
-						<a>９−３．編集モードを取り消す</a>
+						<a>７−３．編集モードを取り消す</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>編集モードを取り消します。編集した内容はiTunesに反映されません。</a>
 					</div>
+
 					<div id="Midashi">
-						<h3>１０．この画像のバックアップをとる</h3>
+						<h3>８．この画像のバックアップをとる</h3>
 					</div>
 					<div id="Setumei">
 						<a>ITunEsTooL上に設定している曲の画像をバックアップすることが出来ます。</a>
 					</div>
 					<div id="Midashi">
-						<h3>１１．この画像を削除する</h3>
+						<h3>９．この画像を削除する</h3>
 					</div>
 					<div id="Setumei">
 						<a>ITunEsTooL上に設定している曲の画像を削除することが出来ます。</a>
 					</div>
 					<div id="Midashi">
-						<h3>１２．画像を拡大表示する</h3>
+						<h3>１０．画像を拡大表示する</h3>
 					</div>
 					<div id="Setumei">
 						<a>ITunEsTooL上に設定している曲の画像を実際のサイズに拡大表示します。</a>
 					</div>
 					<div id="Midashi">
-						<h3>１３．ITunEsTooLに設定されている画像を自動設定</h3>
+						<h3>１１．安心設定、このアルバムを安心設定</h3>
 					</div>
 					<div id="Setumei">
 						<a>ITunEsTooLに設定されている曲に自動で画像を取得します。</a>
 					</div>
 					<div id="Midashi">
-						<h3>１４．すべての画像を自動設定</h3>
+						<h3>１２．高速設定、このアルバムを高速設定</h3>
 					</div>
 					<div id="Setumei">
 						<a>iTunes上の画像が設定されていない曲に自動で画像を取得します。</a>
 					</div>
 					<div id="Setumei">
-						<a>１３−１、１４−１．ダウンロードした画像の確認</a>
+						<a>１１−１、１２−１．ダウンロードした画像の確認</a>
 					</div>
 					<div id="DragFileHani">
-						<img src="img/chkartwork.png" alt="チェック画面" width="400" height="400">
+						<img src="../img/DownloadCheck.bmp" alt="チェック画面" width="400" height="400">
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>検索した画像の確認を行います。画像の名前、アルバム名、アーティスト名、サイズが<br>
@@ -170,7 +163,7 @@
 						</a>
 					</div>
 					<div id="Midashi">
-						<h3>※項目１３、１４について注意</h3>
+						<h3>※項目１１、１２について注意</h3>
 					</div>
 					<div id="chui">
 						<a>
@@ -185,10 +178,10 @@
 						</a>
 					</div>
 					<div id="Midashi">
-						<h3>１５．設定タブの画像関連</h3>
+						<h3>１３．設定タブの画像関連</h3>
 					</div>
 					<div id="Setumei">
-						<a>１５−１．画像タブ（ダウンロードした画像のみ設定する）</a>
+						<a>１３−１．画像タブ（ダウンロードした画像のみ設定する）</a>
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>
@@ -200,7 +193,7 @@
 					</div>
 					
 					<div id="Setumei">
-						<a>１５−２．画像タブ（保存する画像の名前）</a>
+						<a>１３−２．画像タブ（保存する画像の名前）</a>
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>
@@ -213,7 +206,7 @@
 					 </a>
 					</div>
 					<div id="Setumei">
-						<a>１５−３．画像タブ（保存する画像の拡張子）</a>
+						<a>１３−３．画像タブ（保存する画像の拡張子）</a>
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>
@@ -224,7 +217,7 @@
 					 </a>
 					</div>
 					<div id="Setumei">
-						<a>１５−４．検索タブ（コンピレーションの曲にアーティスト名を含める）</a>
+						<a>１３−４．検索タブ（コンピレーションの曲にアーティスト名を含める）</a>
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>
@@ -233,7 +226,7 @@
 					 </a>
 					</div>
 					<div id="Setumei">
-						<a>１５−５．ダウンロードタブ（ダウンロードするサイズを決定）</a>
+						<a>１３−５．ダウンロードタブ（ダウンロードするサイズを決定）</a>
 					</div>
 					<div id="Setumei_Syosai2">
 						<a>
@@ -244,16 +237,11 @@
 					
 					<div id="kuwashikuhakochira">
 						<div class="kuwashiku_link">
-							<a href='http://itunestool.jp/Settei.html'>
+							<a href='Settei.html'>
 								<font>設定機能についてはこちらを</font>
 							</a>
 						</div>
 					</div>
-					<div id="koukoku2">
-						<!-- admax -->
-						<script src="http://adm.shinobi.jp/s/a5f42514a5988556bcfb1b38f419021a"></script>
-						<!-- admax -->
-					 </div>
 			</div>
 			
 			
@@ -261,6 +249,10 @@
 			<div id="footer">
 				<HR size="1" >
 				<div class="footer_contact">
+				<a href="changelog.html">
+						<font color="#ff44ff">更新履歴</font>
+					</a>
+					<a> / </a>
 					<a href="http://itunestool.php.xdomain.jp/contact.html">
 						<font color="#ff44ff">お問い合わせはこちらへ</font>
 					</a>
@@ -275,11 +267,11 @@
 						 <font color="#ff44ff">Blog</font>
 					</a>
 					<a> / </a>
-					<a href="http://itunestool.jp/riyoukiyaku.html">
+					<a href="riyoukiyaku.html">
 						 <font color="#ff44ff">利用規約</font>
 					</a>
 					<a> / </a>
-					<a href="http://itunestool.jp/privacypolicy .html">
+					<a href="privacypolicy .html">
 						 <font color="#ff44ff">プライバシーポリシー</font>
 					</a>
 				</div>

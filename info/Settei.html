@@ -4,11 +4,13 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="content-language" content="ja">
 		<title>ITunEsTooL - 設定</title>
-		<link href="./Settei.css" rel="stylesheet" type="text/css">
+		<link href="Settei.css" rel="stylesheet" type="text/css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" media="screen" href="css/2_5dbutton.css" />
-		<link rel="shortcut icon" href="img/Music.ico" type="image/vnd.microsoft.icon">
-		<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="../css/2_5dbutton.css" />
+		<link rel="shortcut icon" href="../img/Music.ico" type="image/vnd.microsoft.icon">
+		<script type="text/javascript" src="../js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/imgscript.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -16,12 +18,9 @@
 			<div id="header">
 				<div id="Logo_Title">
 					<a href="http://itunestool.jp/">
-					<img src="img/Logo.png" alt="ITunEsTooL_ロゴ" width="509" height="50">
+					<img src="../img/Logo.bmp" alt="ロゴ" width="650" height="50">
 					</a>
-				</div>				
-				<!--<div class="Logo_Setumei">
-					<a>  あなたのiTunesライフをもっと快適に！</a>
-				</div>-->
+				</div>								
 			</div>
 			
 			<HR size="1" >
@@ -34,7 +33,7 @@
 			
 			<div id="box">
 				<div id="content">
-						<div class="frame"><img src="img/Settei.png" alt="ITunEsTooL_バックアップ画面" width="400" height="400"></div>
+						<div class="frame"><img src="../img/Setting_Manual.bmp" alt="設定" width="400" height="400"></div>
 					</div>
 					
 					<div id="Midashi">
@@ -80,7 +79,7 @@
 						<a>２−３．保存する画像の拡張子</a>
 					</div>
 					<div id="Setumei_Syosai2">
-						<a>保存する画像の拡張子を設定することが出来ます。</a>
+						<a>保存する画像の拡張子を設定することが出来ます（フォーマットによってサイズが変更されます。）</a>
 					</div>
 					<div id="Midashi">
 						<h3>３．検索タブ</h3>
@@ -108,29 +107,22 @@
 						</a>
 					</div>
 					<div id="Midashi">
-						<h3>５．バックアップタブ</h3>
+						<h3>５．表示タブ</h3>
 					</div>
 					<div id="Setumei">
-						<a>５−１．上書きバックアップ方式</a>
-					</div>
-					<div id="Setumei_Syosai">
-						<a>バックアップするファイル名と同じファイル名がある場合、上書きを行います（速度遅め）。</a>
-					</div>
-					<div id="Setumei">
-						<a>５−２．差分バックアップ方式</a>
-					</div>
-					<div id="Setumei_Syosai">
-						<a>バックアップするファイル名と同じファイル名がある場合、上書きを行いません（速度早め）。</a>
-					</div>
-					<div id="Midashi">
-						<h3>６．表示タブ</h3>
-					</div>
-					<div id="Setumei">
-						<a>６−１．ITunEsTooLを最前面に表示する。</a>
+						<a>５−１．ITunEsTooLを最前面に表示する。</a>
 					</div>
 					<div id="Setumei_Syosai">
 						<a>ITunEsTooLを常に画面の最前面に表示することが出来ます。
 								最前面に設定するとドラッグ操作など行い易くなります。
+						</a>
+					</div>
+					<div id="Setumei">
+						<a>５−２．ITunEsTooLのカラーを設定</a>
+					</div>
+					<div id="Setumei_Syosai">
+						<a>ITunEsTooLのカラーを設定することが出来ます。
+							お好みのカラーに設定して使ってください。
 						</a>
 					</div>
 					<div id="Midashi">
@@ -146,7 +138,7 @@
 						<a>７−２．画像の自動取得後、自動でシャットダウンをする</a>
 					</div>
 					<div id="Setumei_Syosai">
-						<a>「すべての画像を自動設定」が終了した後に自動でシャットダウンが出来ます。</a>
+						<a>「高速設定」、「安心設定」が終了した後に自動でシャットダウンが出来ます。</a>
 					</div>
 					<div id="Midashi">
 						<h3>８．その他タブ</h3>
@@ -169,17 +161,16 @@
 							</a>
 							にて受け付けています。
 						</a>
-					</div>
-					<div id="koukoku2">
-						<!-- admax -->
-						<script src="http://adm.shinobi.jp/s/3bf8716c39cf76e394d3b23c2061558a"></script>
-						<!-- admax -->
-					</div>
+					</div>				
 				</div>		
 			</div>
 			<div id="footer">
 				<HR size="1" >
 				<div class="footer_contact">
+				<a href="changelog.html">
+						<font color="#ff44ff">更新履歴</font>
+					</a>
+					<a> / </a>
 					<a href="http://itunestool.php.xdomain.jp/contact.html">
 						<font color="#ff44ff">お問い合わせはこちらへ</font>
 					</a>
@@ -194,11 +185,11 @@
 						 <font color="#ff44ff">Blog</font>
 					</a>
 					<a> / </a>
-					<a href="http://itunestool.jp/riyoukiyaku.html">
+					<a href="riyoukiyaku.html">
 						 <font color="#ff44ff">利用規約</font>
 					</a>
 					<a> / </a>
-					<a href="http://itunestool.jp/privacypolicy .html">
+					<a href="privacypolicy .html">
 						 <font color="#ff44ff">プライバシーポリシー</font>
 					</a>
 				</div>
